@@ -38,11 +38,9 @@ class OnThiPage(BasePage):
         self.wait_and_click(self.BTN_CAU_SAU)
 
     def get_answers(self):
-        """Trả về danh sách element đáp án hiện có"""
         return self.driver.find_elements(By.XPATH, "//label[contains(@class,'answer')]")
 
     def wait_and_click(self, locator, timeout=10):
-        """Click element khi nó clickable"""
         element = WebDriverWait(self.driver, timeout).until(
             EC.element_to_be_clickable(locator)
         )
