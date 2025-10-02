@@ -4,16 +4,13 @@ from pages.base_page import BasePage
 
 
 class ThiThuPage(BasePage):
-    # ===== LOCATORS =====
     BTN_VAO_THI = (By.XPATH, "//div[@class='box-content']//span[contains(text(),'Vào Thi')]")
     BTN_BAT_DAU = (By.ID, "modalStartExamBtn")
     ANSWERS = (By.CSS_SELECTOR, "label.answer")
     BTN_TIEP = (By.ID, "topNextBtn")
     BTN_KET_THUC = (By.ID, "bottomEndExamBtn")
     MODAL_SETUP = (By.ID, "setupModal")
-    RESULT_MESSAGE = (By.ID, "resultMessage")   # ✅ Kết quả thi
-
-    # ===== ACTIONS =====
+    RESULT_MESSAGE = (By.ID, "resultMessage")
     def vao_thi(self):
         self.scroll_to_element(self.BTN_VAO_THI)
         self.wait.until(EC.element_to_be_clickable(self.BTN_VAO_THI)).click()

@@ -21,7 +21,7 @@ class OnThiPage(BasePage):
     def chon_dap_an(self, stt):
         answers = self.get_answers()
         if stt > len(answers):
-            stt = len(answers)  # tránh random vượt số đáp án
+            stt = len(answers)
         answers[stt - 1].click()  # index từ 0
 
     def is_dap_an_dung(self, stt):

@@ -7,7 +7,6 @@ from utils.screenshot import take_screenshot
 logger = get_logger()
 reporter = Reporter()
 
-# Danh sách chuyên mục và khoảng câu hỏi
 CHUYEN_MUC = [
     ("khai-niem", 1, 100),
     ("van-hoa", 101, 110),
@@ -22,11 +21,9 @@ def test_onthi_chuyen_muc(driver, chuyen_muc, start, end):
     page.vao_hoc_200()
     page.chon_chuyen_muc(chuyen_muc)
 
-    # Chỉ test 10 câu đầu hoặc ít hơn nếu số câu < 10
     for i in range(start, min(start + 10, end + 1)):
         page.chon_cau(i)
 
-        # Lấy danh sách đáp án hiện có
         answers = page.get_answers()
         dap_an = random.randint(1, len(answers))
         page.chon_dap_an(dap_an)
@@ -42,6 +39,5 @@ def test_onthi_chuyen_muc(driver, chuyen_muc, start, end):
         logger.info(f"[{chuyen_muc}] Câu {i} - Chọn đáp án {dap_an} → {ket_qua}")
         reporter.add_result(i, dap_an, ket_qua)
 
-        # Chuyển sang câu tiếp theo nếu chưa phải câu cuối test
         if i < min(start + 10 - 1, end):
             page.next_cau()

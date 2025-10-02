@@ -6,8 +6,6 @@ from utils.screenshot import take_screenshot
 
 logger = get_logger()
 reporter = Reporter()
-
-# Load đáp án từ CSV
 def load_answers(filepath="C:/Users/Admin/Desktop/DoAn4/dap_an.csv"):
     answers = {}
     with open(filepath, encoding="utf-8") as f:
@@ -18,7 +16,6 @@ def load_answers(filepath="C:/Users/Admin/Desktop/DoAn4/dap_an.csv"):
 
 DAP_AN = load_answers()
 
-# Danh sách chuyên mục và khoảng câu hỏi
 CHUYEN_MUC = [
     ("khai-niem", 1, 100),
     ("van-hoa", 101, 110),
@@ -33,14 +30,12 @@ def test_onthi_chuyen_muc(driver, chuyen_muc, start, end):
     page.vao_hoc_200()
     page.chon_chuyen_muc(chuyen_muc)
 
-    # Test 10 câu đầu (hoặc ít hơn nếu không đủ)
     for i in range(start, min(start + 10, end + 1)):
         page.chon_cau(i)
 
         dap_an = DAP_AN.get(i)
         assert dap_an, f"Không tìm thấy đáp án cho câu {i}"
 
-        # Chọn đáp án đúng từ file
         page.chon_dap_an(dap_an)
 
         if page.is_dap_an_dung(dap_an):
@@ -52,6 +47,5 @@ def test_onthi_chuyen_muc(driver, chuyen_muc, start, end):
         logger.info(f"[{chuyen_muc}] Câu {i} - Đáp án {dap_an} → {ket_qua}")
         reporter.add_result(i, dap_an, ket_qua)
 
-        # Chuyển sang câu tiếp theo nếu chưa phải câu cuối test
         if i < min(start + 10 - 1, end):
             page.next_cau()
