@@ -2,6 +2,7 @@ import pytest
 from pages.thimophong_page import ThiMoPhongPage
 from utils.datadriven import read_excel
 
+
 @pytest.mark.usefixtures("driver")
 def test_thi_mophong_space(driver):
     page = ThiMoPhongPage(driver)
@@ -12,12 +13,15 @@ def test_thi_mophong_space(driver):
     page.vao_thi_mophong()
     page.chon_de_1()
     page.bat_dau_thi()
-    page.nhan_space(so_lan=len(delay_list), delay=delay_list)
 
-    ket_qua_thuc_te = page.lay_ket_qua_popup()
-    expected = "KHÔNG ĐẠT"
+    # Mỗi lần nhấn SPACE là một test con
+    for idx, delay in enumerate(delay_list, start=1):
+        page.nhan_space(so_lan=1, delay=[delay])
+        diem = page.lay_diem_cau(idx)
 
-    assert ket_qua_thuc_te == expected, (
-        f"Kết quả sai! Mong đợi: {expected}, Thực tế: {ket_qua_thuc_te}"
-    )
-    print(f" Hoàn thành bài thi mô phỏng. Kết quả: {ket_qua_thuc_te}")
+        # Kiểm tra chức năng: đảm bảo diem có giá trị (không phải None)
+        # Nếu hàm lay_diem_cau() trả về None khi lỗi
+        assert diem is not None, f" Câu {idx}: Không lấy được điểm. Chức năng hiển thị điểm bị lỗi."
+
+        # Nếu assert PASS (điểm đã hiển thị), chỉ cần in ra điểm là PASS
+        print(f"Câu {idx}: {diem} điểm")

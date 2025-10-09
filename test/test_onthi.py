@@ -15,7 +15,7 @@ CHUYEN_MUC = [
     ("tinh-huong", 216, 250),
 ]
 
-@pytest.mark.parametrize("chuyen_muc, start, end", CHUYEN_MUC)
+@pytest.mark.parametrize("ch uyen_muc, start, end", CHUYEN_MUC)
 def test_onthi_chuyen_muc(driver, chuyen_muc, start, end):
     page = OnThiPage(driver)
     page.vao_hoc_200()
