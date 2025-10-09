@@ -20,6 +20,6 @@ def test_thi_thu(driver):
 
     expected_message = "Bạn đã thi rớt"
     assert expected_message in actual_message, \
-        f"❌ Expected '{expected_message}' but got '{actual_message}'"
+        f" Expected '{expected_message}' but got '{actual_message}'"
 
-    print(f"✅ Kết quả thi: {actual_message}")
+    print(f" Kết quả thi: {actual_message}")

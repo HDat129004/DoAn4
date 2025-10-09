@@ -32,7 +32,6 @@ def test_onthi_chuyen_muc(driver, chuyen_muc, start, end):
             ket_qua = "Đúng"
         elif page.is_dap_an_sai(dap_an):
             ket_qua = "Sai"
-            take_screenshot(driver, f"{chuyen_muc}_cau_{i}")
         else:
             ket_qua = "Không xác định"
 

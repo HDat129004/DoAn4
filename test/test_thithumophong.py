@@ -14,4 +14,4 @@ def test_hoc_mo_phong(driver):
         pass
     page.play_video()
     actual_time = page.cho_va_bam_space(expected_time=10.88, tol=0.5)
-    print(f"✅ Space click thành công tại {actual_time:.2f}s (mong đợi ~10.88s)")
+    print(f" Space click thành công tại {actual_time:.2f}s (mong đợi ~10.88s)")
