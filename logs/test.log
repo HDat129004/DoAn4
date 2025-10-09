@@ -421,3 +421,21 @@
 2025-10-09 08:40:09,471 - INFO - [tinh-huong] Câu 225 - Chọn đáp án 1 → Đúng
 2025-10-09 08:40:09,472 - INFO - [PASS] test_onthi_chuyen_muc[tinh-huong-216-250]
 2025-10-09 08:41:11,494 - INFO - [PASS] test_hoc_mo_phong
+2025-10-09 08:53:44,592 - ERROR - [FAIL] test_thi_thu
+2025-10-09 08:54:09,655 - INFO - [PASS] test_thi_thu
+2025-10-09 09:53:39,492 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 09:54:09,200 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 09:56:48,283 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 09:57:56,296 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:00:56,279 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:02:46,346 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:04:28,333 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:08:32,733 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:14:51,279 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:17:40,974 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:19:43,720 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:21:39,362 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:23:37,543 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:26:53,873 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:29:00,272 - ERROR - [FAIL] test_thi_mophong_space
+2025-10-09 10:30:43,004 - ERROR - [FAIL] test_thi_mophong_space
