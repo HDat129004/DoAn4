@@ -9,7 +9,6 @@ from pytest_html import extras
 
 @pytest.fixture
 def driver():
-    """Fixture to set up and tear down the webdriver."""
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
     # options.add_argument("--headless")  # Uncomment to run in headless mode
@@ -20,16 +19,12 @@ def driver():
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
-    """
-    This hook is executed after each test.
-    It handles logging and attaches screenshots to the HTML report on failure.
-    """
+
     outcome = yield
     report = outcome.get_result()
     extra = getattr(report, 'extra', [])
 
     if report.when == 'call':
-        # --- Custom Logging ---
         logger = get_logger()
         test_name = item.name.replace("/", "_")
         if report.passed:
