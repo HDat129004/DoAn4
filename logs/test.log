@@ -499,3 +499,359 @@
 2025-10-09 13:26:23,350 - ERROR - [FAIL] test_thi_mophong_space
 2025-10-09 14:02:45,344 - ERROR - [FAIL] test_thi_mophong_space
 2025-10-09 14:07:10,554 - INFO - [PASS] test_thi_mophong_space
+2025-10-09 15:21:34,124 - INFO - [khai-niem] Câu 1 - Đáp án 2 → Đúng
+2025-10-09 15:21:34,287 - INFO - [khai-niem] Câu 2 - Đáp án 2 → Đúng
+2025-10-09 15:21:34,453 - INFO - [khai-niem] Câu 3 - Đáp án 1 → Đúng
+2025-10-09 15:21:34,605 - INFO - [khai-niem] Câu 4 - Đáp án 2 → Đúng
+2025-10-09 15:21:34,766 - INFO - [khai-niem] Câu 5 - Đáp án 4 → Sai
+2025-10-09 15:21:34,918 - INFO - [khai-niem] Câu 6 - Đáp án 1 → Đúng
+2025-10-09 15:21:35,067 - INFO - [khai-niem] Câu 7 - Đáp án 1 → Đúng
+2025-10-09 15:21:35,223 - INFO - [khai-niem] Câu 8 - Đáp án 2 → Đúng
+2025-10-09 15:21:35,388 - INFO - [khai-niem] Câu 9 - Đáp án 1 → Đúng
+2025-10-09 15:21:35,749 - INFO - [khai-niem] Câu 10 - Đáp án 3 → Đúng
+2025-10-09 15:21:35,749 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-09 15:21:42,697 - INFO - [van-hoa] Câu 101 - Đáp án 1 → Sai
+2025-10-09 15:21:42,894 - INFO - [van-hoa] Câu 102 - Đáp án 4 → Sai
+2025-10-09 15:21:43,091 - INFO - [van-hoa] Câu 103 - Đáp án 1 → Sai
+2025-10-09 15:21:53,518 - ERROR - [FAIL] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-09 15:22:00,608 - INFO - [ky-thuat] Câu 111 - Đáp án 1 → Sai
+2025-10-09 15:22:00,769 - INFO - [ky-thuat] Câu 112 - Đáp án 2 → Sai
+2025-10-16 07:53:49,135 - INFO - [khai-niem] Câu 1 - Chọn đáp án 2 → Đúng
+2025-10-16 07:53:49,322 - INFO - [khai-niem] Câu 2 - Chọn đáp án 3 → Sai
+2025-10-16 07:53:49,506 - INFO - [khai-niem] Câu 3 - Chọn đáp án 3 → Sai
+2025-10-16 07:53:49,671 - INFO - [khai-niem] Câu 4 - Chọn đáp án 2 → Đúng
+2025-10-16 07:53:49,856 - INFO - [khai-niem] Câu 5 - Chọn đáp án 4 → Sai
+2025-10-16 07:53:50,036 - INFO - [khai-niem] Câu 6 - Chọn đáp án 3 → Sai
+2025-10-16 07:53:50,207 - INFO - [khai-niem] Câu 7 - Chọn đáp án 3 → Sai
+2025-10-16 07:53:50,385 - INFO - [khai-niem] Câu 8 - Chọn đáp án 1 → Sai
+2025-10-16 07:53:50,569 - INFO - [khai-niem] Câu 9 - Chọn đáp án 3 → Sai
+2025-10-16 07:53:50,749 - INFO - [khai-niem] Câu 10 - Chọn đáp án 2 → Sai
+2025-10-16 07:53:50,750 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-16 07:53:59,079 - INFO - [van-hoa] Câu 101 - Chọn đáp án 2 → Sai
+2025-10-16 07:53:59,285 - INFO - [van-hoa] Câu 102 - Chọn đáp án 4 → Sai
+2025-10-16 07:53:59,483 - INFO - [van-hoa] Câu 103 - Chọn đáp án 1 → Sai
+2025-10-16 07:53:59,640 - INFO - [van-hoa] Câu 104 - Chọn đáp án 1 → Đúng
+2025-10-16 07:53:59,791 - INFO - [van-hoa] Câu 105 - Chọn đáp án 1 → Đúng
+2025-10-16 07:53:59,963 - INFO - [van-hoa] Câu 106 - Chọn đáp án 1 → Đúng
+2025-10-16 07:54:00,145 - INFO - [van-hoa] Câu 107 - Chọn đáp án 3 → Sai
+2025-10-16 07:54:00,311 - INFO - [van-hoa] Câu 108 - Chọn đáp án 4 → Sai
+2025-10-16 07:54:00,531 - INFO - [van-hoa] Câu 109 - Chọn đáp án 1 → Sai
+2025-10-16 07:54:00,720 - INFO - [van-hoa] Câu 110 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:00,721 - INFO - [PASS] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-16 07:54:08,904 - INFO - [ky-thuat] Câu 111 - Chọn đáp án 3 → Đúng
+2025-10-16 07:54:09,118 - INFO - [ky-thuat] Câu 112 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:09,306 - INFO - [ky-thuat] Câu 113 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:09,475 - INFO - [ky-thuat] Câu 114 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:09,646 - INFO - [ky-thuat] Câu 115 - Chọn đáp án 1 → Sai
+2025-10-16 07:54:09,798 - INFO - [ky-thuat] Câu 116 - Chọn đáp án 2 → Đúng
+2025-10-16 07:54:09,965 - INFO - [ky-thuat] Câu 117 - Chọn đáp án 3 → Sai
+2025-10-16 07:54:10,120 - INFO - [ky-thuat] Câu 118 - Chọn đáp án 3 → Đúng
+2025-10-16 07:54:10,275 - INFO - [ky-thuat] Câu 119 - Chọn đáp án 2 → Đúng
+2025-10-16 07:54:10,448 - INFO - [ky-thuat] Câu 120 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:10,449 - INFO - [PASS] test_onthi_chuyen_muc[ky-thuat-111-125]
+2025-10-16 07:54:17,329 - INFO - [bien-bao] Câu 126 - Chọn đáp án 3 → Sai
+2025-10-16 07:54:17,518 - INFO - [bien-bao] Câu 127 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:17,700 - INFO - [bien-bao] Câu 128 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:17,884 - INFO - [bien-bao] Câu 129 - Chọn đáp án 1 → Đúng
+2025-10-16 07:54:18,071 - INFO - [bien-bao] Câu 130 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:18,258 - INFO - [bien-bao] Câu 131 - Chọn đáp án 3 → Sai
+2025-10-16 07:54:18,435 - INFO - [bien-bao] Câu 132 - Chọn đáp án 1 → Đúng
+2025-10-16 07:54:18,615 - INFO - [bien-bao] Câu 133 - Chọn đáp án 3 → Sai
+2025-10-16 07:54:18,826 - INFO - [bien-bao] Câu 134 - Chọn đáp án 3 → Sai
+2025-10-16 07:54:19,013 - INFO - [bien-bao] Câu 135 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:19,014 - INFO - [PASS] test_onthi_chuyen_muc[bien-bao-126-215]
+2025-10-16 07:54:27,469 - INFO - [tinh-huong] Câu 216 - Chọn đáp án 1 → Sai
+2025-10-16 07:54:27,649 - INFO - [tinh-huong] Câu 217 - Chọn đáp án 1 → Sai
+2025-10-16 07:54:27,832 - INFO - [tinh-huong] Câu 218 - Chọn đáp án 4 → Sai
+2025-10-16 07:54:28,011 - INFO - [tinh-huong] Câu 219 - Chọn đáp án 1 → Sai
+2025-10-16 07:54:28,172 - INFO - [tinh-huong] Câu 220 - Chọn đáp án 2 → Đúng
+2025-10-16 07:54:28,337 - INFO - [tinh-huong] Câu 221 - Chọn đáp án 1 → Đúng
+2025-10-16 07:54:28,503 - INFO - [tinh-huong] Câu 222 - Chọn đáp án 2 → Đúng
+2025-10-16 07:54:28,688 - INFO - [tinh-huong] Câu 223 - Chọn đáp án 3 → Sai
+2025-10-16 07:54:28,847 - INFO - [tinh-huong] Câu 224 - Chọn đáp án 3 → Đúng
+2025-10-16 07:54:29,038 - INFO - [tinh-huong] Câu 225 - Chọn đáp án 2 → Sai
+2025-10-16 07:54:29,039 - INFO - [PASS] test_onthi_chuyen_muc[tinh-huong-216-250]
+2025-10-24 15:28:07,009 - INFO - [khai-niem] Câu 1 - Chọn đáp án 2 → Đúng
+2025-10-24 15:28:07,355 - INFO - [khai-niem] Câu 2 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:07,647 - INFO - [khai-niem] Câu 3 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:07,941 - INFO - [khai-niem] Câu 4 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:08,183 - INFO - [khai-niem] Câu 5 - Chọn đáp án 1 → Sai
+2025-10-24 15:28:08,471 - INFO - [khai-niem] Câu 6 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:08,701 - INFO - [khai-niem] Câu 7 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:08,937 - INFO - [khai-niem] Câu 8 - Chọn đáp án 1 → Sai
+2025-10-24 15:28:09,183 - INFO - [khai-niem] Câu 9 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:09,451 - INFO - [khai-niem] Câu 10 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:09,452 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-24 15:28:16,162 - INFO - [van-hoa] Câu 101 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:16,394 - INFO - [van-hoa] Câu 102 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:16,590 - INFO - [van-hoa] Câu 103 - Chọn đáp án 3 → Đúng
+2025-10-24 15:28:16,792 - INFO - [van-hoa] Câu 104 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:17,014 - INFO - [van-hoa] Câu 105 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:17,215 - INFO - [van-hoa] Câu 106 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:17,408 - INFO - [van-hoa] Câu 107 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:17,637 - INFO - [van-hoa] Câu 108 - Chọn đáp án 4 → Sai
+2025-10-24 15:28:17,856 - INFO - [van-hoa] Câu 109 - Chọn đáp án 4 → Đúng
+2025-10-24 15:28:18,092 - INFO - [van-hoa] Câu 110 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:18,093 - INFO - [PASS] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-24 15:28:24,617 - INFO - [ky-thuat] Câu 111 - Chọn đáp án 1 → Sai
+2025-10-24 15:28:24,819 - INFO - [ky-thuat] Câu 112 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:25,047 - INFO - [ky-thuat] Câu 113 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:25,250 - INFO - [ky-thuat] Câu 114 - Chọn đáp án 3 → Đúng
+2025-10-24 15:28:25,464 - INFO - [ky-thuat] Câu 115 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:25,680 - INFO - [ky-thuat] Câu 116 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:25,870 - INFO - [ky-thuat] Câu 117 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:26,083 - INFO - [ky-thuat] Câu 118 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:26,477 - INFO - [ky-thuat] Câu 119 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:26,688 - INFO - [ky-thuat] Câu 120 - Chọn đáp án 1 → Sai
+2025-10-24 15:28:26,689 - INFO - [PASS] test_onthi_chuyen_muc[ky-thuat-111-125]
+2025-10-24 15:28:34,319 - INFO - [bien-bao] Câu 126 - Chọn đáp án 4 → Sai
+2025-10-24 15:28:34,575 - INFO - [bien-bao] Câu 127 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:34,842 - INFO - [bien-bao] Câu 128 - Chọn đáp án 1 → Sai
+2025-10-24 15:28:35,071 - INFO - [bien-bao] Câu 129 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:35,305 - INFO - [bien-bao] Câu 130 - Chọn đáp án 4 → Sai
+2025-10-24 15:28:35,558 - INFO - [bien-bao] Câu 131 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:35,771 - INFO - [bien-bao] Câu 132 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:36,006 - INFO - [bien-bao] Câu 133 - Chọn đáp án 2 → Đúng
+2025-10-24 15:28:36,246 - INFO - [bien-bao] Câu 134 - Chọn đáp án 4 → Sai
+2025-10-24 15:28:36,470 - INFO - [bien-bao] Câu 135 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:36,471 - INFO - [PASS] test_onthi_chuyen_muc[bien-bao-126-215]
+2025-10-24 15:28:43,010 - INFO - [tinh-huong] Câu 216 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:43,293 - INFO - [tinh-huong] Câu 217 - Chọn đáp án 4 → Sai
+2025-10-24 15:28:43,550 - INFO - [tinh-huong] Câu 218 - Chọn đáp án 1 → Sai
+2025-10-24 15:28:43,792 - INFO - [tinh-huong] Câu 219 - Chọn đáp án 1 → Sai
+2025-10-24 15:28:44,000 - INFO - [tinh-huong] Câu 220 - Chọn đáp án 2 → Đúng
+2025-10-24 15:28:44,234 - INFO - [tinh-huong] Câu 221 - Chọn đáp án 1 → Đúng
+2025-10-24 15:28:44,481 - INFO - [tinh-huong] Câu 222 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:44,745 - INFO - [tinh-huong] Câu 223 - Chọn đáp án 2 → Sai
+2025-10-24 15:28:44,959 - INFO - [tinh-huong] Câu 224 - Chọn đáp án 3 → Đúng
+2025-10-24 15:28:45,206 - INFO - [tinh-huong] Câu 225 - Chọn đáp án 3 → Sai
+2025-10-24 15:28:45,206 - INFO - [PASS] test_onthi_chuyen_muc[tinh-huong-216-250]
+2025-10-24 15:33:20,152 - ERROR - [FAIL] test_hoc_mo_phong
+2025-10-24 15:33:26,157 - INFO - [khai-niem] Câu 1 - Chọn đáp án 3 → Sai
+2025-10-24 15:33:26,430 - INFO - [khai-niem] Câu 2 - Chọn đáp án 3 → Sai
+2025-10-24 15:33:26,691 - INFO - [khai-niem] Câu 3 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:26,936 - INFO - [khai-niem] Câu 4 - Chọn đáp án 1 → Sai
+2025-10-24 15:33:27,219 - INFO - [khai-niem] Câu 5 - Chọn đáp án 4 → Sai
+2025-10-24 15:33:27,476 - INFO - [khai-niem] Câu 6 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:27,719 - INFO - [khai-niem] Câu 7 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:27,961 - INFO - [khai-niem] Câu 8 - Chọn đáp án 1 → Sai
+2025-10-24 15:33:28,233 - INFO - [khai-niem] Câu 9 - Chọn đáp án 3 → Sai
+2025-10-24 15:33:28,509 - INFO - [khai-niem] Câu 10 - Chọn đáp án 1 → Sai
+2025-10-24 15:33:28,510 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-24 15:33:35,629 - INFO - [van-hoa] Câu 101 - Chọn đáp án 3 → Đúng
+2025-10-24 15:33:35,858 - INFO - [van-hoa] Câu 102 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:36,087 - INFO - [van-hoa] Câu 103 - Chọn đáp án 1 → Sai
+2025-10-24 15:33:36,301 - INFO - [van-hoa] Câu 104 - Chọn đáp án 1 → Đúng
+2025-10-24 15:33:36,499 - INFO - [van-hoa] Câu 105 - Chọn đáp án 1 → Đúng
+2025-10-24 15:33:36,745 - INFO - [van-hoa] Câu 106 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:36,937 - INFO - [van-hoa] Câu 107 - Chọn đáp án 1 → Đúng
+2025-10-24 15:33:37,163 - INFO - [van-hoa] Câu 108 - Chọn đáp án 4 → Sai
+2025-10-24 15:33:37,396 - INFO - [van-hoa] Câu 109 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:37,617 - INFO - [van-hoa] Câu 110 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:37,618 - INFO - [PASS] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-24 15:33:43,478 - INFO - [ky-thuat] Câu 111 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:43,696 - INFO - [ky-thuat] Câu 112 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:43,916 - INFO - [ky-thuat] Câu 113 - Chọn đáp án 1 → Đúng
+2025-10-24 15:33:44,166 - INFO - [ky-thuat] Câu 114 - Chọn đáp án 3 → Đúng
+2025-10-24 15:33:44,391 - INFO - [ky-thuat] Câu 115 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:44,591 - INFO - [ky-thuat] Câu 116 - Chọn đáp án 2 → Đúng
+2025-10-24 15:33:44,788 - INFO - [ky-thuat] Câu 117 - Chọn đáp án 1 → Đúng
+2025-10-24 15:33:45,013 - INFO - [ky-thuat] Câu 118 - Chọn đáp án 1 → Sai
+2025-10-24 15:33:45,218 - INFO - [ky-thuat] Câu 119 - Chọn đáp án 2 → Đúng
+2025-10-24 15:33:45,419 - INFO - [ky-thuat] Câu 120 - Chọn đáp án 3 → Đúng
+2025-10-24 15:33:45,420 - INFO - [PASS] test_onthi_chuyen_muc[ky-thuat-111-125]
+2025-10-24 15:33:51,541 - INFO - [bien-bao] Câu 126 - Chọn đáp án 3 → Sai
+2025-10-24 15:33:51,782 - INFO - [bien-bao] Câu 127 - Chọn đáp án 3 → Sai
+2025-10-24 15:33:52,009 - INFO - [bien-bao] Câu 128 - Chọn đáp án 3 → Đúng
+2025-10-24 15:33:52,246 - INFO - [bien-bao] Câu 129 - Chọn đáp án 3 → Sai
+2025-10-24 15:33:52,493 - INFO - [bien-bao] Câu 130 - Chọn đáp án 2 → Sai
+2025-10-24 15:33:52,716 - INFO - [bien-bao] Câu 131 - Chọn đáp án 2 → Đúng
+2025-10-24 15:33:52,943 - INFO - [bien-bao] Câu 132 - Chọn đáp án 1 → Đúng
+2025-10-24 15:33:53,165 - INFO - [bien-bao] Câu 133 - Chọn đáp án 2 → Đúng
+2025-10-24 15:33:53,385 - INFO - [bien-bao] Câu 134 - Chọn đáp án 1 → Đúng
+2025-10-24 15:33:53,646 - INFO - [bien-bao] Câu 135 - Chọn đáp án 4 → Sai
+2025-10-24 15:33:53,648 - INFO - [PASS] test_onthi_chuyen_muc[bien-bao-126-215]
+2025-10-24 15:34:00,384 - INFO - [tinh-huong] Câu 216 - Chọn đáp án 1 → Sai
+2025-10-24 15:34:00,638 - INFO - [tinh-huong] Câu 217 - Chọn đáp án 4 → Sai
+2025-10-24 15:34:00,889 - INFO - [tinh-huong] Câu 218 - Chọn đáp án 4 → Sai
+2025-10-24 15:34:01,131 - INFO - [tinh-huong] Câu 219 - Chọn đáp án 1 → Sai
+2025-10-24 15:34:01,365 - INFO - [tinh-huong] Câu 220 - Chọn đáp án 1 → Sai
+2025-10-24 15:34:01,580 - INFO - [tinh-huong] Câu 221 - Chọn đáp án 1 → Đúng
+2025-10-24 15:34:01,820 - INFO - [tinh-huong] Câu 222 - Chọn đáp án 3 → Sai
+2025-10-24 15:34:02,045 - INFO - [tinh-huong] Câu 223 - Chọn đáp án 1 → Đúng
+2025-10-24 15:34:02,274 - INFO - [tinh-huong] Câu 224 - Chọn đáp án 3 → Đúng
+2025-10-24 15:34:02,497 - INFO - [tinh-huong] Câu 225 - Chọn đáp án 1 → Đúng
+2025-10-24 15:34:02,498 - INFO - [PASS] test_onthi_chuyen_muc[tinh-huong-216-250]
+2025-10-24 15:34:09,039 - INFO - [khai-niem] Câu 1 - Đáp án 2 → Đúng
+2025-10-24 15:34:09,256 - INFO - [khai-niem] Câu 2 - Đáp án 2 → Đúng
+2025-10-24 15:34:09,493 - INFO - [khai-niem] Câu 3 - Đáp án 1 → Đúng
+2025-10-24 15:34:09,705 - INFO - [khai-niem] Câu 4 - Đáp án 2 → Đúng
+2025-10-24 15:34:09,909 - INFO - [khai-niem] Câu 5 - Đáp án 4 → Sai
+2025-10-24 15:34:10,121 - INFO - [khai-niem] Câu 6 - Đáp án 1 → Đúng
+2025-10-24 15:34:10,338 - INFO - [khai-niem] Câu 7 - Đáp án 1 → Đúng
+2025-10-24 15:34:10,554 - INFO - [khai-niem] Câu 8 - Đáp án 2 → Đúng
+2025-10-24 15:34:10,770 - INFO - [khai-niem] Câu 9 - Đáp án 1 → Đúng
+2025-10-24 15:34:10,969 - INFO - [khai-niem] Câu 10 - Đáp án 3 → Đúng
+2025-10-24 15:34:10,970 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-24 15:34:17,344 - INFO - [van-hoa] Câu 101 - Đáp án 1 → Sai
+2025-10-24 15:34:17,548 - INFO - [van-hoa] Câu 102 - Đáp án 4 → Sai
+2025-10-24 15:34:17,753 - INFO - [van-hoa] Câu 103 - Đáp án 1 → Sai
+2025-10-24 15:34:28,107 - ERROR - [FAIL] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-24 15:34:35,142 - INFO - [ky-thuat] Câu 111 - Đáp án 1 → Sai
+2025-10-24 15:34:35,349 - INFO - [ky-thuat] Câu 112 - Đáp án 2 → Sai
+2025-10-24 15:34:45,712 - ERROR - [FAIL] test_onthi_chuyen_muc[ky-thuat-111-125]
+2025-10-24 15:34:53,961 - INFO - [bien-bao] Câu 126 - Đáp án 2 → Đúng
+2025-10-24 15:34:54,202 - INFO - [bien-bao] Câu 127 - Đáp án 3 → Sai
+2025-10-24 15:34:54,433 - INFO - [bien-bao] Câu 128 - Đáp án 2 → Sai
+2025-10-24 15:34:54,653 - INFO - [bien-bao] Câu 129 - Đáp án 1 → Đúng
+2025-10-24 15:34:54,919 - INFO - [bien-bao] Câu 130 - Đáp án 2 → Sai
+2025-10-24 15:34:55,142 - INFO - [bien-bao] Câu 131 - Đáp án 2 → Đúng
+2025-10-24 15:34:55,356 - INFO - [bien-bao] Câu 132 - Đáp án 3 → Sai
+2025-10-24 15:34:55,565 - INFO - [bien-bao] Câu 133 - Đáp án 3 → Sai
+2025-10-24 15:34:55,794 - INFO - [bien-bao] Câu 134 - Đáp án 2 → Sai
+2025-10-24 15:34:56,015 - INFO - [bien-bao] Câu 135 - Đáp án 2 → Sai
+2025-10-24 15:34:56,016 - INFO - [PASS] test_onthi_chuyen_muc[bien-bao-126-215]
+2025-10-24 15:35:02,470 - INFO - [tinh-huong] Câu 216 - Đáp án 3 → Đúng
+2025-10-24 15:35:02,704 - INFO - [tinh-huong] Câu 217 - Đáp án 3 → Sai
+2025-10-24 15:35:02,931 - INFO - [tinh-huong] Câu 218 - Đáp án 1 → Sai
+2025-10-24 15:35:13,301 - ERROR - [FAIL] test_onthi_chuyen_muc[tinh-huong-216-250]
+2025-10-24 15:38:28,435 - INFO - [PASS] test_thi_mophong_space
+2025-10-24 15:38:45,584 - ERROR - [FAIL] test_thi_thu
+2025-10-24 15:49:39,384 - INFO - [khai-niem] Câu 1 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:39,577 - INFO - [khai-niem] Câu 2 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:39,768 - INFO - [khai-niem] Câu 3 - Chọn đáp án 2 → Sai
+2025-10-24 15:49:39,931 - INFO - [khai-niem] Câu 4 - Chọn đáp án 2 → Đúng
+2025-10-24 15:49:40,105 - INFO - [khai-niem] Câu 5 - Chọn đáp án 2 → Đúng
+2025-10-24 15:49:40,289 - INFO - [khai-niem] Câu 6 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:40,487 - INFO - [khai-niem] Câu 7 - Chọn đáp án 2 → Sai
+2025-10-24 15:49:40,702 - INFO - [khai-niem] Câu 8 - Chọn đáp án 1 → Sai
+2025-10-24 15:49:40,886 - INFO - [khai-niem] Câu 9 - Chọn đáp án 2 → Sai
+2025-10-24 15:49:41,111 - INFO - [khai-niem] Câu 10 - Chọn đáp án 3 → Đúng
+2025-10-24 15:49:41,112 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-24 15:49:46,954 - INFO - [van-hoa] Câu 101 - Chọn đáp án 2 → Sai
+2025-10-24 15:49:47,155 - INFO - [van-hoa] Câu 102 - Chọn đáp án 4 → Sai
+2025-10-24 15:49:47,359 - INFO - [van-hoa] Câu 103 - Chọn đáp án 2 → Sai
+2025-10-24 15:49:47,526 - INFO - [van-hoa] Câu 104 - Chọn đáp án 1 → Đúng
+2025-10-24 15:49:47,685 - INFO - [van-hoa] Câu 105 - Chọn đáp án 1 → Đúng
+2025-10-24 15:49:47,880 - INFO - [van-hoa] Câu 106 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:48,085 - INFO - [van-hoa] Câu 107 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:48,271 - INFO - [van-hoa] Câu 108 - Chọn đáp án 2 → Sai
+2025-10-24 15:49:48,467 - INFO - [van-hoa] Câu 109 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:48,630 - INFO - [van-hoa] Câu 110 - Chọn đáp án 1 → Đúng
+2025-10-24 15:49:48,631 - INFO - [PASS] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-24 15:49:54,788 - INFO - [ky-thuat] Câu 111 - Chọn đáp án 3 → Đúng
+2025-10-24 15:49:54,970 - INFO - [ky-thuat] Câu 112 - Chọn đáp án 1 → Đúng
+2025-10-24 15:49:55,121 - INFO - [ky-thuat] Câu 113 - Chọn đáp án 1 → Đúng
+2025-10-24 15:49:55,294 - INFO - [ky-thuat] Câu 114 - Chọn đáp án 1 → Sai
+2025-10-24 15:49:55,497 - INFO - [ky-thuat] Câu 115 - Chọn đáp án 2 → Sai
+2025-10-24 15:49:55,655 - INFO - [ky-thuat] Câu 116 - Chọn đáp án 2 → Đúng
+2025-10-24 15:49:56,043 - INFO - [ky-thuat] Câu 117 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:56,234 - INFO - [ky-thuat] Câu 118 - Chọn đáp án 1 → Sai
+2025-10-24 15:49:56,457 - INFO - [ky-thuat] Câu 119 - Chọn đáp án 3 → Sai
+2025-10-24 15:49:56,627 - INFO - [ky-thuat] Câu 120 - Chọn đáp án 3 → Đúng
+2025-10-24 15:49:56,628 - INFO - [PASS] test_onthi_chuyen_muc[ky-thuat-111-125]
+2025-10-24 15:50:02,984 - INFO - [bien-bao] Câu 126 - Chọn đáp án 4 → Sai
+2025-10-24 15:50:03,194 - INFO - [bien-bao] Câu 127 - Chọn đáp án 3 → Sai
+2025-10-24 15:50:03,398 - INFO - [bien-bao] Câu 128 - Chọn đáp án 1 → Sai
+2025-10-24 15:50:03,585 - INFO - [bien-bao] Câu 129 - Chọn đáp án 3 → Sai
+2025-10-24 15:50:03,779 - INFO - [bien-bao] Câu 130 - Chọn đáp án 1 → Sai
+2025-10-24 15:50:03,974 - INFO - [bien-bao] Câu 131 - Chọn đáp án 3 → Sai
+2025-10-24 15:50:04,158 - INFO - [bien-bao] Câu 132 - Chọn đáp án 1 → Đúng
+2025-10-24 15:50:04,405 - INFO - [bien-bao] Câu 133 - Chọn đáp án 3 → Sai
+2025-10-24 15:50:04,661 - INFO - [bien-bao] Câu 134 - Chọn đáp án 2 → Sai
+2025-10-24 15:50:04,877 - INFO - [bien-bao] Câu 135 - Chọn đáp án 3 → Sai
+2025-10-24 15:50:04,878 - INFO - [PASS] test_onthi_chuyen_muc[bien-bao-126-215]
+2025-10-24 15:50:12,143 - INFO - [tinh-huong] Câu 216 - Chọn đáp án 2 → Sai
+2025-10-24 15:50:12,400 - INFO - [tinh-huong] Câu 217 - Chọn đáp án 4 → Sai
+2025-10-24 15:50:12,590 - INFO - [tinh-huong] Câu 218 - Chọn đáp án 4 → Sai
+2025-10-24 15:50:12,763 - INFO - [tinh-huong] Câu 219 - Chọn đáp án 2 → Đúng
+2025-10-24 15:50:12,928 - INFO - [tinh-huong] Câu 220 - Chọn đáp án 2 → Đúng
+2025-10-24 15:50:13,097 - INFO - [tinh-huong] Câu 221 - Chọn đáp án 1 → Đúng
+2025-10-24 15:50:13,284 - INFO - [tinh-huong] Câu 222 - Chọn đáp án 1 → Sai
+2025-10-24 15:50:13,470 - INFO - [tinh-huong] Câu 223 - Chọn đáp án 1 → Đúng
+2025-10-24 15:50:13,643 - INFO - [tinh-huong] Câu 224 - Chọn đáp án 3 → Đúng
+2025-10-24 15:50:13,838 - INFO - [tinh-huong] Câu 225 - Chọn đáp án 4 → Sai
+2025-10-24 15:50:13,839 - INFO - [PASS] test_onthi_chuyen_muc[tinh-huong-216-250]
+2025-10-24 15:51:01,654 - INFO - [khai-niem] Câu 1 - Đáp án 2 → Đúng
+2025-10-24 15:51:01,825 - INFO - [khai-niem] Câu 2 - Đáp án 2 → Đúng
+2025-10-24 15:51:01,995 - INFO - [khai-niem] Câu 3 - Đáp án 1 → Đúng
+2025-10-24 15:51:02,162 - INFO - [khai-niem] Câu 4 - Đáp án 2 → Đúng
+2025-10-24 15:51:02,329 - INFO - [khai-niem] Câu 5 - Đáp án 4 → Sai
+2025-10-24 15:51:02,499 - INFO - [khai-niem] Câu 6 - Đáp án 1 → Đúng
+2025-10-24 15:51:02,661 - INFO - [khai-niem] Câu 7 - Đáp án 1 → Đúng
+2025-10-24 15:51:02,817 - INFO - [khai-niem] Câu 8 - Đáp án 2 → Đúng
+2025-10-24 15:51:03,002 - INFO - [khai-niem] Câu 9 - Đáp án 1 → Đúng
+2025-10-24 15:51:03,172 - INFO - [khai-niem] Câu 10 - Đáp án 3 → Đúng
+2025-10-24 15:51:03,173 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-24 15:51:11,319 - INFO - [van-hoa] Câu 101 - Đáp án 1 → Sai
+2025-10-24 15:51:11,597 - INFO - [van-hoa] Câu 102 - Đáp án 4 → Sai
+2025-10-24 15:51:11,767 - INFO - [van-hoa] Câu 103 - Đáp án 1 → Sai
+2025-10-24 15:51:22,290 - ERROR - [FAIL] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-24 15:51:28,467 - INFO - [ky-thuat] Câu 111 - Đáp án 1 → Sai
+2025-10-24 15:51:28,634 - INFO - [ky-thuat] Câu 112 - Đáp án 2 → Sai
+2025-10-24 15:51:38,986 - ERROR - [FAIL] test_onthi_chuyen_muc[ky-thuat-111-125]
+2025-10-24 15:51:46,545 - INFO - [bien-bao] Câu 126 - Đáp án 2 → Đúng
+2025-10-24 15:51:46,745 - INFO - [bien-bao] Câu 127 - Đáp án 3 → Sai
+2025-10-24 15:51:46,928 - INFO - [bien-bao] Câu 128 - Đáp án 2 → Sai
+2025-10-24 15:51:47,113 - INFO - [bien-bao] Câu 129 - Đáp án 1 → Đúng
+2025-10-24 15:51:47,310 - INFO - [bien-bao] Câu 130 - Đáp án 2 → Sai
+2025-10-24 15:51:47,490 - INFO - [bien-bao] Câu 131 - Đáp án 2 → Đúng
+2025-10-24 15:51:47,686 - INFO - [bien-bao] Câu 132 - Đáp án 3 → Sai
+2025-10-24 15:51:47,857 - INFO - [bien-bao] Câu 133 - Đáp án 3 → Sai
+2025-10-24 15:51:48,031 - INFO - [bien-bao] Câu 134 - Đáp án 2 → Sai
+2025-10-24 15:51:48,225 - INFO - [bien-bao] Câu 135 - Đáp án 2 → Sai
+2025-10-24 15:51:48,226 - INFO - [PASS] test_onthi_chuyen_muc[bien-bao-126-215]
+2025-10-24 15:51:54,604 - INFO - [tinh-huong] Câu 216 - Đáp án 3 → Đúng
+2025-10-24 15:51:54,784 - INFO - [tinh-huong] Câu 217 - Đáp án 3 → Sai
+2025-10-24 15:51:54,958 - INFO - [tinh-huong] Câu 218 - Đáp án 1 → Sai
+2025-10-24 15:52:05,297 - ERROR - [FAIL] test_onthi_chuyen_muc[tinh-huong-216-250]
+2025-10-24 16:31:20,577 - INFO - [khai-niem] Câu 1 - Đáp án 2 → Đúng
+2025-10-24 16:31:20,793 - INFO - [khai-niem] Câu 2 - Đáp án 2 → Đúng
+2025-10-24 16:31:21,019 - INFO - [khai-niem] Câu 3 - Đáp án 1 → Đúng
+2025-10-24 16:31:21,228 - INFO - [khai-niem] Câu 4 - Đáp án 2 → Đúng
+2025-10-24 16:31:21,449 - INFO - [khai-niem] Câu 5 - Đáp án 4 → Sai
+2025-10-24 16:31:21,867 - INFO - [khai-niem] Câu 6 - Đáp án 1 → Đúng
+2025-10-24 16:31:22,074 - INFO - [khai-niem] Câu 7 - Đáp án 1 → Đúng
+2025-10-24 16:31:22,277 - INFO - [khai-niem] Câu 8 - Đáp án 2 → Đúng
+2025-10-24 16:31:22,499 - INFO - [khai-niem] Câu 9 - Đáp án 1 → Đúng
+2025-10-24 16:31:22,714 - INFO - [khai-niem] Câu 10 - Đáp án 3 → Đúng
+2025-10-24 16:31:22,715 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-24 16:31:31,367 - INFO - [van-hoa] Câu 101 - Đáp án 1 → Sai
+2025-10-24 16:31:31,653 - INFO - [van-hoa] Câu 102 - Đáp án 4 → Sai
+2025-10-24 16:31:31,864 - INFO - [van-hoa] Câu 103 - Đáp án 1 → Sai
+2025-10-24 16:31:42,372 - ERROR - [FAIL] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-24 16:31:49,095 - INFO - [ky-thuat] Câu 111 - Đáp án 1 → Sai
+2025-10-24 16:31:49,311 - INFO - [ky-thuat] Câu 112 - Đáp án 2 → Sai
+2025-10-24 16:41:58,564 - INFO - [khai-niem] Câu 1 - Đáp án 2 → Đúng
+2025-10-24 16:41:58,746 - INFO - [khai-niem] Câu 2 - Đáp án 2 → Đúng
+2025-10-24 16:41:59,152 - INFO - [khai-niem] Câu 3 - Đáp án 1 → Đúng
+2025-10-24 16:41:59,337 - INFO - [khai-niem] Câu 4 - Đáp án 2 → Đúng
+2025-10-24 16:41:59,520 - INFO - [khai-niem] Câu 5 - Đáp án 4 → Sai
+2025-10-24 16:41:59,707 - INFO - [khai-niem] Câu 6 - Đáp án 1 → Đúng
+2025-10-24 16:41:59,887 - INFO - [khai-niem] Câu 7 - Đáp án 1 → Đúng
+2025-10-24 16:42:00,061 - INFO - [khai-niem] Câu 8 - Đáp án 2 → Đúng
+2025-10-24 16:42:00,239 - INFO - [khai-niem] Câu 9 - Đáp án 1 → Đúng
+2025-10-24 16:42:00,432 - INFO - [khai-niem] Câu 10 - Đáp án 3 → Đúng
+2025-10-24 16:42:00,433 - INFO - [PASS] test_onthi_chuyen_muc[khai-niem-1-100]
+2025-10-24 16:42:06,659 - INFO - [van-hoa] Câu 101 - Đáp án 1 → Sai
+2025-10-24 16:42:06,848 - INFO - [van-hoa] Câu 102 - Đáp án 4 → Sai
+2025-10-24 16:42:07,009 - INFO - [van-hoa] Câu 103 - Đáp án 1 → Sai
+2025-10-24 16:42:17,496 - ERROR - [FAIL] test_onthi_chuyen_muc[van-hoa-101-110]
+2025-10-24 16:42:24,355 - INFO - [ky-thuat] Câu 111 - Đáp án 1 → Sai
+2025-10-24 16:42:24,531 - INFO - [ky-thuat] Câu 112 - Đáp án 2 → Sai
+2025-10-24 16:42:34,843 - ERROR - [FAIL] test_onthi_chuyen_muc[ky-thuat-111-125]
+2025-10-24 16:42:40,695 - INFO - [bien-bao] Câu 126 - Đáp án 2 → Đúng
+2025-10-24 16:42:40,890 - INFO - [bien-bao] Câu 127 - Đáp án 3 → Sai
+2025-10-24 16:42:41,064 - INFO - [bien-bao] Câu 128 - Đáp án 2 → Sai
+2025-10-24 16:42:41,241 - INFO - [bien-bao] Câu 129 - Đáp án 1 → Đúng
+2025-10-24 16:42:41,415 - INFO - [bien-bao] Câu 130 - Đáp án 2 → Sai
+2025-10-24 16:42:41,594 - INFO - [bien-bao] Câu 131 - Đáp án 2 → Đúng
+2025-10-24 16:42:41,774 - INFO - [bien-bao] Câu 132 - Đáp án 3 → Sai
+2025-10-24 16:42:41,947 - INFO - [bien-bao] Câu 133 - Đáp án 3 → Sai
+2025-10-24 16:42:42,123 - INFO - [bien-bao] Câu 134 - Đáp án 2 → Sai
+2025-10-24 16:42:42,300 - INFO - [bien-bao] Câu 135 - Đáp án 2 → Sai
+2025-10-24 16:42:42,301 - INFO - [PASS] test_onthi_chuyen_muc[bien-bao-126-215]
+2025-10-24 16:42:49,826 - INFO - [tinh-huong] Câu 216 - Đáp án 3 → Đúng
+2025-10-24 16:42:50,032 - INFO - [tinh-huong] Câu 217 - Đáp án 3 → Sai
+2025-10-24 16:42:50,214 - INFO - [tinh-huong] Câu 218 - Đáp án 1 → Sai
+2025-10-24 16:43:00,555 - ERROR - [FAIL] test_onthi_chuyen_muc[tinh-huong-216-250]

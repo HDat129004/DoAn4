@@ -1,36 +1,56 @@
 import os
-from utils.screenshot import take_screenshot
-from utils.logger import get_logger
 import pytest
 from selenium import webdriver
+from utils.logger import get_logger
 
+# This import is needed for pytest-html.
+# It will raise an error if pytest-html is not installed.
+from pytest_html import extras
 
 @pytest.fixture
 def driver():
+    """Fixture to set up and tear down the webdriver."""
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
-    # options.add_argument("--headless")  # nếu muốn chạy ẩn
+    # options.add_argument("--headless")  # Uncomment to run in headless mode
     driver = webdriver.Chrome(options=options)
     driver.get("https://taplai.com/")
     yield driver
     driver.quit()
 
-
-# Hook: Chụp screenshot khi test fail
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+@pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
+    """
+    This hook is executed after each test.
+    It handles logging and attaches screenshots to the HTML report on failure.
+    """
     outcome = yield
-    rep = outcome.get_result()
-    if rep.when == "call":
+    report = outcome.get_result()
+    extra = getattr(report, 'extra', [])
+
+    if report.when == 'call':
+        # --- Custom Logging ---
         logger = get_logger()
         test_name = item.name.replace("/", "_")
-        if rep.failed:
-            logger.error(f"[FAIL] {test_name}")
-            driver = item.funcargs.get("driver")
-            if driver:
-                outdir = os.path.join(os.getcwd(), "screenshots")
-                os.makedirs(outdir, exist_ok=True)
-                filepath = os.path.join(outdir, f"fail_{test_name}.png")
-                take_screenshot(driver, filepath)
-        elif rep.passed:
+        if report.passed:
             logger.info(f"[PASS] {test_name}")
+        elif report.failed:
+            logger.error(f"[FAIL] {test_name}")
+
+        # --- Screenshot for HTML Report on failure ---
+        if report.failed:
+            try:
+                driver = item.funcargs['driver']
+                screenshot_dir = os.path.join(os.getcwd(), "screenshots")
+                os.makedirs(screenshot_dir, exist_ok=True)
+                screenshot_path = os.path.join(screenshot_dir, f"fail_{item.name.replace('::', '_').replace('/', '_')}.png")
+                driver.save_screenshot(screenshot_path)
+                extra.append(extras.image(screenshot_path))
+            except Exception as e:
+                print(f"Failed to take screenshot: {e}")
+    
+    report.extra = extra
+
+def pytest_html_report_title(report):
+    """Customizes the report title."""
+    report.title = "Báo cáo kiểm thử tự động"
